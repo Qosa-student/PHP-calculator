@@ -1,0 +1,41 @@
+:root {
+    --size: 5em;
+}
+
+body {
+    background-color: azure;
+    text-align: center;
+}
+
+.send-box {
+    width: var(--size);
+    padding: 10px;
+    border: hidden;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.hidden {
+    display: none;
+}
+
+.btn {
+    padding: 10px;
+    color: #ffff;
+    background-color: green;
+    border: hidden;
+    border-radius: 2px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    margin: 20px;
+}
+
+.btn:hover {
+    background-color: rgb(54, 202, 54);
+}
+
+.result {
+    margin-top: 10px;
+}
+
+.error {
+    color: #b00020;
+}
